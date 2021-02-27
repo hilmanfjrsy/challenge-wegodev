@@ -1,7 +1,69 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");
 .App {
-  text-align: center;
+  padding: 10px;
 }
 
+.loading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 70vh;
+}
+.loading p{
+  color: #b4b4b4;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.scrollx {
+  overflow-x:scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.scrollx::-webkit-scrollbar {
+  display: none;
+}
+.scrollx .category {
+  background-color: rgb(207, 82, 9);
+  padding: 5px 15px 5px 15px;
+  margin: 5px;
+  color:white;
+  border-radius: 5px;
+  display: inline-block;
+}
+.bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  flex-direction: column;
+  justify-content:flex-end;
+}
+.gradient{
+  padding: 10px ;
+  background-image: linear-gradient(#ffffff00, rgb(17, 17, 17));
+}
+.gradient h5{
+  color: white;
+  font-weight: 700;
+}
+
+.card{
+  box-shadow: 1px 2px 10px #c4c4c4;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.container-desc{
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
