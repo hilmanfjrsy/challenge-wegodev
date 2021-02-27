@@ -37,7 +37,7 @@ export default function App() {
    return (
       <div className="">
          <div className='text-center mt-2'>
-            <i class="bi bi-newspaper" style={{ fontSize: 35, color: 'rgb(207, 82, 9)' }}></i>
+            <i className="bi bi-newspaper" style={{ fontSize: 35, color: 'rgb(207, 82, 9)' }}></i>
             <span style={{ color: 'rgb(207, 82, 9)', fontSize: 35, marginLeft: 10, fontWeight: 'bold' }}>NEWS</span>
          </div>
          <div className='scrollx'>
